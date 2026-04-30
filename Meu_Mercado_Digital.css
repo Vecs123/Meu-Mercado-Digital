@@ -66,7 +66,7 @@ body {
 
 .nav-links a:hover, .nav-links a.active {
     border-bottom-color: cyan;
-    color: cyan;
+    color: black;
 }
 
 /* Hero Section - estilo da imagem "Meu Mercado Digital" */
@@ -283,8 +283,6 @@ body {
 }
 
 .card-img-1 { background-image: url('IMAGENS/blogFoto.jpeg'); background-size: cover; background-position: center; }
-.card-img-2 { background-image: linear-gradient(125deg, #849b7d, #c2a572), url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZTNkNmM4Ii8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiM1YTRhM2EiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlBpeCAmIE1lcmNhZG8gUGFnbzwvdGV4dD48L3N2Zz4='); background-blend-mode: overlay; background-size: cover; }
-.card-img-3 { background-image: linear-gradient(125deg, #c28a5e, #ebc28e), url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZTNkNmM4Ii8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiM1YTRhM2EiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkdlcmHDp8OjbyBkZSBFbXByZWdvczwvdGV4dD48L3N2Zz4='); background-blend-mode: overlay; background-size: cover; }
 
 .card-content {
     padding: 28px 28px 32px;
@@ -467,9 +465,9 @@ form input, form textarea {
 }
 form textarea { border-radius: 28px; resize: vertical; }
 form button {
-    background: #0b2b26;
-    color: white;
-    border: none;
+    background: #f4c542;
+    color: rgb(0, 0, 0);
+    border-color: black;
     padding: 16px;
     border-radius: 50px;
     font-weight: 700;
@@ -477,11 +475,11 @@ form button {
     transition: 0.2s;
     font-size: 1.1rem;
 }
-form button:hover { background: #c25d2e; }
+form button:hover { background: #d6e8eb; }
 
 /* Footer */
 .main-footer {
-    background: #ffffff;
+    background: #d6e8eb;
     color: #000000;
     padding: 56px 0 40px;
     margin-top: 80px;
@@ -507,11 +505,11 @@ form button:hover { background: #c25d2e; }
     font-size: 1.8rem;
     margin-right: 20px;
     text-align: center;
-    color: #cfcbbc;
+    color: #000000;
     transition: color 0.2s;
     cursor: pointer;
 }
-.social i:hover { color: #000000; }
+.social i:hover { color: #f4c542; }
 
 .footer-flex div:last-child p {
     font-size: 0.9rem;
