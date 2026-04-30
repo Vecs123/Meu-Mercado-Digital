@@ -45,6 +45,7 @@ body {
 
 .logo span {
     color: #f4c542;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
 .nav-links {
@@ -180,8 +181,8 @@ body {
 }
 
 .btn-secondary:hover {
-    border-color: cyan;
-    background: white;
+    border-color: rgb(0, 0, 0);
+    background: #d6e8eb;
     transform: translateY(-2px);
 }
 
@@ -292,7 +293,7 @@ body {
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #b95f2e;
+    color: #f4c542;
     font-weight: 700;
 }
 
@@ -322,7 +323,7 @@ body {
 
 .post-card:hover .read-more {
     gap: 12px;
-    color: #c25d2e;
+    color: #f4c542;
 }
 
 /* Artigo completo */
@@ -420,8 +421,8 @@ body {
 .back-home {
     display: inline-block;
     margin-top: 36px;
-    background: #0b2b26;
-    color: white;
+    background: #f4c542;
+    color: black;
     padding: 14px 32px;
     border-radius: 50px;
     text-decoration: none;
@@ -432,7 +433,7 @@ body {
     transition: background 0.2s;
     font-size: 1rem;
 }
-.back-home:hover { background: #c25d2e; }
+.back-home:hover { background: #d6e8eb; }
 
 /* Página Sobre/Contato */
 .page-card {
@@ -494,6 +495,11 @@ form button:hover { background: #d6e8eb; }
     color: #000000;
     font-size: 1.5rem;
     margin-bottom: 12px;
+}
+
+.main-footer span {
+    color: #f4c542;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
 .footer-logo p {
