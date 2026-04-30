@@ -139,34 +139,16 @@
             card.addEventListener('click', () => renderPost(id));
         });
     }
-
-    function renderSobre() {
-        const html = `
-            <div class="container">
-                <div class="page-card">
-                    <h1>📖 Sobre o Meu Mercado Digital</h1>
-                    <p style="font-size:1.2rem; margin:20px 0">Somos uma plataforma dedicada a conectar empreendedores à transformação digital, oferecendo conhecimento técnico e estratégias práticas para o sucesso do seu negócio.</p>
-                    <p>Acreditamos que a tecnologia não substitui o ser humano, mas o fortalece. A modernização é um conceito que não tem mais volta, e os pequenos negócios podem utilizar essas ferramentas para pulverizar oportunidades e aumentar a geração de empregos.</p>
-                    <div class="stats-highlight"><div class="stat-item"><i class="fas fa-store"></i> <strong>+10 mil</strong> <span>empreendedores impactados</span></div> <div class="stat-item"><i class="fas fa-chart-simple"></i> <strong>75%</strong> <span>dos consumidores preferem variedade de pagamento</span></div></div>
-                    <p><strong>"Um comércio que aceita a era digital garante que a tradição local sobreviva"</strong> — essa é a nossa missão.</p>
-                    <button class="back-home" id="backHomeSobre">← Voltar para o Início</button>
-                </div>
-            </div>
-        `;
-        root.innerHTML = html;
-        document.getElementById('backHomeSobre')?.addEventListener('click', () => renderHome());
-    }
-
     function renderContato() {
         const html = `
             <div class="container">
                 <div class="page-card">
                     <h1>📬 Fale Conosco</h1>
-                    <p>Tem alguma sugestão, case de sucesso ou quer saber mais sobre transformação digital? Mande uma mensagem para nossa equipe.</p>
+                    <p>Quer compartilhar alguma informação, case de sucesso ou quer saber mais sobre nossos temas? Mande uma mensagem para nossa equipe.</p>
                     <form id="contactForm" style="margin-top: 32px; display:flex; flex-direction:column; gap:24px;">
                         <input type="text" id="contactName" placeholder="Seu nome" required>
-                        <input type="email" id="contactEmail" placeholder="E-mail para contato" required>
-                        <textarea id="contactMsg" rows="4" placeholder="Sua mensagem sobre digitalização de pequenos negócios..."></textarea>
+                        <input type="email" id="contactEmail" placeholder="E-mail" required>
+                        <textarea id="contactMsg" rows="4" placeholder="Sua mensagem..."></textarea>
                         <button type="submit">Enviar mensagem <i class="fas fa-paper-plane"></i></button>
                     </form>
                     <div id="formFeedback" style="margin-top:16px;"></div>
