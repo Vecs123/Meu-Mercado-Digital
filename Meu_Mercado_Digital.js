@@ -202,9 +202,6 @@
     function navigateTo(page) {
         if (page === 'home') {
             renderHome();
-            setActiveNav('home');
-        } else if (page === 'sobre') {
-            renderSobre();
             setActiveNav('sobre');
         } else if (page === 'blog') {
             renderBlogOnly();
