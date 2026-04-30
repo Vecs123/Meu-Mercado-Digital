@@ -126,6 +126,14 @@ body {
     line-height: 1.2;
     margin-bottom: 24px;
 }
+.hero-digital span {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #f4c542;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
 
 .hero-digital .hero-subtitle {
     font-size: 1.5rem;
