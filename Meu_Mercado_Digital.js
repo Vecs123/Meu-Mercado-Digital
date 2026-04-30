@@ -48,8 +48,8 @@
             <!-- Hero Section - Estilo Meu Mercado Digital -->
             <section class="hero-digital">
                 <div class="container">
-                    <h1>Meu Mercado Digital</h1>
-                    <p class="hero-subtitle">Conectando empreendedores à transformação digital com conhecimento técnico e estratégias práticas para o seu sucesso.</p>
+                    <h1>Meu <span>Mercado Digital</span></h1>
+                    <p class="hero-subtitle">Conectando pessoas à transformação digital com conhecimento para o sucesso e conscientização.</p>
                     <div class="hero-buttons">
                         <button class="btn-secondary" id="heroCtaBlog">Ver Blog <i class="fas fa-newspaper"></i></button>
                     </div>
