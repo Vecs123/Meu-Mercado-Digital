@@ -17,7 +17,7 @@
                 <blockquote>"É um meio que já se consolidou. A tecnologia é um conceito que não tem mais volta e os pequenos negócios utilizam para pulverizar oportunidades e aumentar a geração de empregos."
                 Décio Lima, presidente da Sebrae.</blockquote>
                 <p>Ampliar os meios de pagamento não é abandonar a essencia dos pequenos negócios, mas sim uma estratégia direta de aumento de conversão. Um comércio que aceita a era digital, além de gerar empregos, garante que a tradição local sobreviva à competitividade das grandes redes. </p>
-                <p>Nesse episódio da Boca TV, mostramos que a transformação se inicia com uma escolha de mudança simples, mas termina com o desenvolvimento da economia local.</p>
+                <p>Nesse episódio da Boca TV, é mostrado que a transformação se inicia com uma escolha de mudança simples, mas termina com o desenvolvimento da economia local.</p>
             `,
             imgClass: "card-img-1",
             views: "1.2k visualizações",
